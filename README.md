@@ -1,1 +1,15 @@
-DHPCL: Diffusion-Driven Hard-Soft Prototype Contrastive Learning for Semi-Supervised Medical Image Segmentation.
+### 硬件与系统
+
+| ---- | ------------------------------------------------------------ |
+| GPU  | NVIDIA，显存 24 GB（3090） |
+| CUDA | 12.9                                    |
+| 系统 | Linux                                       |
+
+> ⚠️ **本训练脚本为单卡实现**。
+
+### Python / PyTorch
+
+| 项      | 要求                     |
+| ------- | ------------------------ |
+| Python  | ≥ 3.8（推荐 3.9 ~ 3.11） |
+| PyTorch | **≥ 2.0.0（硬性要求）**  |
