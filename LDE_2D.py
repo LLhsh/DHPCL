@@ -176,10 +176,3 @@ class LDE(nn.Module):
         x = rearrange(x, 'b (h w) c -> b c h w', h=h)
 
         return x
-
-if __name__ == '__main__':
-    _input = torch.randn(1, 32, 64, 64)
-    lde = LDE(dim=32)
-    output = lde(_input)
-    print('input_size:', _input.size())
-    print('output_size:', output.size())
